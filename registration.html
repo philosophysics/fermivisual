@@ -1,0 +1,58 @@
+---
+layout: page
+title: Registration
+permalink: /registration/
+---
+
+<div class="section">
+  <h2>General Info</h2>
+  <p>
+    {{ site.data.registration.info }}
+  </p>
+</div>
+
+{% if site.data.registration.posters? %}
+  <div class="section">
+    <h2>Posters and Talks</h2>
+    <p>
+      {{ site.data.registration.posters }}
+    </p>
+    <p>
+      To submit an abstract, both for a talk or a poster, use this templates:
+    </p>
+    {% for item in site.data.registration.poster_template %}
+      <a href="{{ site.url }}/{{ item.url }}" class="collection-item black-text">
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<div class="section">
+  <h2>Terms and conditions</h2>
+  <p>Please read carefully and take note of the following:<p>
+  <div class="collection">
+    <a href="#!" class="collection-item black-text">All personal data will be handled confidentially. It will not be forwarded to any third parties except where necessary for the purpose of the conference. Please keep in mind that we will forward some of the information in your registration form to the universities and research centres involved. We will also send your name and university to the board of the national/local committees of IAPS to check your IAPS membership.</a>
+    <a href="#!" class="collection-item black-text"> Only students enrolled in a university or similar institution on a physics or physics-related course, as well as up to twelve months after receiving a degree from a university are able to participate in this event. Only students with an age of at least 18 years are allowed to attend the conference.</a>
+    <a href="#!" class="collection-item black-text">You acknowledge and agree that the organizing committee and the hosts of the event have no responsibility whatsoever for injuries, losses, or damages of any kind that result from your participation in the Astroparticle Physics Autumn Programme 2016.</a>
+    <a href="files/IAPS_Code_of_Conduct.pdf" class="collection-item black-text">You accept the IAPS Code of Conduct.<span class="badge indigo white-text">pdf</span></a>
+    <a href="#!" class="collection-item black-text">By participating in the event you agree to be filmed, photographed, and otherwise recorded during the conference and hereby expressly grant the organizing committee, AISF and IAPS the right to use your picture, movie or any other form of media publication. You also confirm that the information contained in this application is true and correct.</a>
+    <a href="#!" class="collection-item black-text">You accept that the organizing committee cannot be made responsible for the content of any talk, poster, workshop, excursion or similar activity.</a>
+    <a href="#!" class="collection-item black-text">You accept that, in case of cancellation by a participant, the Organising Committee will provide a reimbursement only if a replacement for the student can be found. No reimbursement will be given for membership fees under any circumstances. If a reimbursement were to be approved, the Organising Committee will retain a total of €10 from the fee as a contribution to the expenses to the event. All decisions about financial aspects of the event will need to be approved by the entire Organising Committee.</a>
+    <a href="#!" class="collection-item black-text">The present terms and conditions are governed by the laws of the Republic of Italy.</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Deadline for registration and payment</h2>
+  <p>
+    <div class="collection">
+      <a href="#!" class="collection-item black-text">A first round of registration for the event will be open at this page between July 1st (13:00, CET) and July 10th (13:00, CET).</a>
+      <a href="#!" class="collection-item black-text">Following the registration period, we expect to email all applicants within 10 days. The selection process will end before the beginning of August. Payments will then be required (by bank transfer or PayPal) within 10 days of receiving an acceptance email from the organising committee.</a>
+      {% if site.data.registration.posters? %}
+        <a href="#!" class="collection-item black-text"> Preference will be given to students presenting abstracts (for either a talk or a poster), even though only 5 applicants will eventually be able to give a talk, and 5 to present a poster. Please notice that applicants do not need to be specialising in the field of nuclear physics, but can be from any discipline of Physics.</a>
+        <a href="#!" class="collection-item black-text">Observer places, i.e. those for students who choose not to present scientific contributions, will be awarded based on short 100-word motivations to be submitted during the registration process.</a>
+      {% endif %}
+    </div>
+  </p>
+</div>

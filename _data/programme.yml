@@ -1,0 +1,51 @@
+info: "The Particle & Astroparticle Physics Programme is coming to its second edition, this time to be held in the autumn. Following last year's great success, the Italian Association of Physics Students (AISF) will be organising a similar event, also including some new features and further improvements.
+</p><p>
+During the Programme, 40 students will be visiting the National Gran Sasso Laboratory and the Gran Sasso Science Institute in central Italy and the INFN laboratories in Frascati, Rome. Participants will meet in Rome, then move to the city of L'Aquila by coach and eventually return to Rome for departure. The event will have a focus on astroparticle physics, but a number of other topics will be touched upon, including theoretical physics, nuclear physics, high energy collisions and cosmology. Students will be expected to have a basic understanding of these subjects in order to effectively make the most of the programme.
+</p><p>
+The complete event programme for 2016 can be downloaded here."
+
+last_update: 20/09/16
+
+schedule:
+  - day: Sunday
+    date: "02/10"
+    short_descr: baleqrlvbleqvb sun
+    activity:
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+  - day: Monday
+    date: "03/10"
+    short_descr: baleqrlvbleqvb mon
+    activity:
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+  - day: Tuesday
+    date: "04/10"
+    short_descr: baleqrlvbleqvb tues
+    activity:
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+  - day: Wednesday
+    date: "05/10"
+    short_descr: baleqrlvbleqvb wed
+    activity:
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+  - day: Thursday
+    date: "06/10"
+    short_descr: baleqrlvbleqvb thu
+    activity:
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
+      - hour: "14:00 - 16:00"
+        descr: "Check-in"
