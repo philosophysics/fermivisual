@@ -78,20 +78,31 @@ permalink: /programme/
       The program may be subject to change.
     </p>
   </div>
-
 </div>
 
 <div class="section">
   <h2>A few points to note</h2>
+  <p>{{ site.data.programme.few_info.info }}<p>
   <div class="collection">
-    <a href="#!" class="collection-item black-text">In order to enroll to the event you must be an IAPS member.</a>
-    <a href="#!" class="collection-item black-text">We expect to select 40 students, of whom approximately half will be Italian.</a>
-    <a href="#!" class="collection-item black-text">Participation fees are fixed at €120 for each applicant. Such fee will cover the cost of accommodation in both L`Aquila and Rome, breakfasts at the Federico II Hotel, one buffet lunch at the LNGS, one lunch at the GSSI canteen, AISF-IAPS t-shirts, one travel ticket in the Rome/Frascati area, travel from Rome to L’Aquila (and vice versa), as well as travel from the Federico II Hotel to the LNGS. Please notice that participation fees <b>do not cover</b> the following:</a>
-    <a href="#!" class="collection-item black-text indigo lighten-5">Journeys to/from Rome at arrival and departure. These will need to be arranged independently;</a>
-    <a href="#!" class="collection-item black-text indigo lighten-5">Insurance;</a>
-    <a href="#!" class="collection-item black-text indigo lighten-5">Meals other than those officially offered in the Programme. When useful, the Organising Committee
-  will always suggest places to eat.</a>
-    <a href="http://www.ai-sf.it/joomla/it/membri" class="collection-item black-text">Note: if you are Italian and you are not an IAPS/AISF member yet you can become an AISF member while registering for this event: you need to fill in this module and make a single payment including both the quotes.<span class="badge indigo white-text">module</span></a>
-    <a href="#!" class="collection-item black-text">Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time.</a>
+  {% for item in site.data.programme.few_info.specs %}
+    <a
+      href="{{ item.url }}"
+      class="collection-item black-text">
+      {{ item.text }}
+      {% if item.url != "#!" %}
+        <span class="badge indigo white-text">{{ item.button }}</span>
+      {% endif %}
+    </a>
+    {% for item2 in item.subpoints %}
+      <a
+        href="{{ item2.url }}"
+        class="collection-item black-text indigo lighten-5">
+        {{ item2.text }}
+        {% if item.url != "#!" %}
+          <span class="badge indigo white-text">{{ item2.button }}</span>
+        {% endif %}
+      </a>
+    {% endfor %}
+  {% endfor %}
   </div>
 </div>
