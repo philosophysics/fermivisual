@@ -43,9 +43,9 @@ permalink: /programme/
     <div class="col s12">
       <ul class="tabs">
       {% for item in site.data.programme.schedule %}
-        <li class="tab col m3 s12"><a class="indigo-text" href="#{{ item.day }}">{{ item.date }}</a></li>
+        <li class="tab col m3 s12"><a class="custom1-text" href="#{{ item.day }}">{{ item.date }}</a></li>
       {% endfor %}
-        <div class="indicator indigo" style="z-index:1"></div>
+        <div class="indicator custom1" style="z-index:1"></div>
       </ul>
     </div>
   </div>
@@ -90,16 +90,16 @@ permalink: /programme/
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
-        <span class="badge indigo white-text">{{ item.button }}</span>
+        <span class="badge custom1 white-text">{{ item.button }}</span>
       {% endif %}
     </a>
     {% for item2 in item.subpoints %}
       <a
         href="{{ item2.url }}"
-        class="collection-item black-text indigo lighten-5">
+        class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
-          <span class="badge indigo white-text">{{ item2.button }}</span>
+          <span class="badge custom1 white-text">{{ item2.button }}</span>
         {% endif %}
       </a>
     {% endfor %}

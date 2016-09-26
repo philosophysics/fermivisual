@@ -30,16 +30,16 @@ permalink: /registration/
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
-        <span class="badge indigo white-text">{{ item.button }}</span>
+        <span class="badge custom1 white-text">{{ item.button }}</span>
       {% endif %}
     </a>
     {% for item2 in item.subpoints %}
       <a
         href="{{ item2.url }}"
-        class="collection-item black-text indigo lighten-5">
+        class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
-          <span class="badge indigo white-text">{{ item2.button }}</span>
+          <span class="badge custom1 white-text">{{ item2.button }}</span>
         {% endif %}
       </a>
     {% endfor %}
@@ -57,7 +57,7 @@ permalink: /registration/
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
-        <span class="badge indigo white-text">pdf</span>
+        <span class="badge custom1 white-text">pdf</span>
       {% endif %}
     </a>
   {% endfor %}

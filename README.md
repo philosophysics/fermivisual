@@ -9,9 +9,4 @@ La maggior parte dei dati "personalizzabili" del sito sta nella cartella \_data,
 
 TO DO:
 - non funziona il tabs per il programma dettagliato, al momento commentato in programme.html. Il problema è che non so gestire più di 4 tab. Se provo a metterne 5, va a capo. Se li rimpicciolisco, è graficamente osceno;
-<<<<<<< HEAD
-=======
-- non capisco come mai le cars in facilities.html sono full page, quando su schermi tablet+pc dovrebbero essere a mezza pagina;
-- alcuni testi sono ancora nei sorgenti html, e andrebbero spostati in \_data;
->>>>>>> 52fa2ebdf46922cf04690079cfa608c4ea102603
-- sarebbe molto bello poter personalizare i colori in modo semplice. Per fare questo, definirei delle variabili per i due colori principali in \_data/general.yml, li importerei come variabili sass con liquid nel main.scss e poi li userei nel codice. Problema: alcuni colori non sono definiti tramite la proprietà color, ma con classi (es.: indigo). Non ho ancora indagato a fondo nel codice.
+- non capisco come mai le cards in facilities.html sono full page, quando su schermi tablet+pc dovrebbero essere a mezza pagina;

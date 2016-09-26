@@ -364,6 +364,33 @@ $grey: (
   "darken-4":   #212121
 );
 
+$custom1: (
+  "lighten-5": lighten($color-type1, 40%),
+  "lighten-4": lighten($color-type1, 30%),
+  "lighten-3": lighten($color-type1, 20%),
+  "lighten-2": lighten($color-type1, 10%),
+  "lighten-1": lighten($color-type1, 5%),
+  "base": $color-type1,
+  "darken-1": darken($color-type1, 5%),
+  "darken-2": darken($color-type1, 10%),
+  "darken-3": darken($color-type1, 20%),
+  "darken-4": darken($color-type1, 30%)
+);
+
+$custom2: (
+  "lighten-5": lighten($color-type2, 40%),
+  "lighten-4": lighten($color-type2, 30%),
+  "lighten-3": lighten($color-type2, 20%),
+  "lighten-2": lighten($color-type2, 10%),
+  "lighten-1": lighten($color-type2, 5%),
+  "base": $color-type2,
+  "darken-1": darken($color-type2, 5%),
+  "darken-2": darken($color-type2, 10%),
+  "darken-3": darken($color-type2, 20%),
+  "darken-4": darken($color-type2, 30%)
+);
+
+
 $shades: (
   "black":        #000000,
   "white":        #FFFFFF,
@@ -371,8 +398,10 @@ $shades: (
 );
 
 $colors: (
-    "aisf": $aisf,
-    "crimson": $crimson,
+  "custom1": $custom1,
+  "custom2": $custom2,
+  "aisf": $aisf,
+  "crimson": $crimson,
   "materialize-red": $materialize-red,
   "red": $red,
   "pink": $pink,
@@ -395,6 +424,7 @@ $colors: (
   "grey": $grey,
   "shades": $shades
 );
+
 
 
 // Color Classes
@@ -444,4 +474,3 @@ $colors: (
   @warn "Unknown `#{name}` in $colors.";
   @return null;
 }
-

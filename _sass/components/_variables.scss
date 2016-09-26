@@ -1,9 +1,9 @@
 /*** Colors ***/
-$primary-color: color("aisf", "base") !default;
+$primary-color: color("custom1", "base") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("crimson", "darken-1") !default;
+$secondary-color: color("custom2", "base") !default;
 $success-color: color("lime", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("crimson", "base") !default;
@@ -26,7 +26,7 @@ $button-line-height: 36px !default;
 /*** Cards ***/
 $card-padding: 20px !default;
 $card-bg-color: #fff !default;
-$card-link-color: color("crimson", "base") !default;
+$card-link-color: $secondary-color !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 /*** Collapsible ***/
@@ -35,8 +35,8 @@ $collapsible-header-color: #fff !default;
 $collapsible-border-color: #ddd !default;
 
 /*** Dropdown ***/
-$dropdown-bg-color: color("aisf", "darken-1") !default;
-$dropdown-hover-bg-color: color("aisf","darken-2") !default;
+$dropdown-bg-color: $primary-color !default;
+$dropdown-hover-bg-color: $primary-color !default;
 $dropdown-color: #fff !default;
 
 /*** Fonts ***/
@@ -107,7 +107,7 @@ $sidenav-padding-right: 15px !default;
 /*** Photo Slider ***/
 $slider-bg-color: color('grey', 'base') !default;
 $slider-bg-color-light: color('grey', 'lighten-2') !default;
-$slider-indicator-color: color('aisf', 'base') !default;
+$slider-indicator-color: $primary-color !default;
 
 /*** Tabs ***/
 $tabs-underline-color: $primary-color-light !default;
