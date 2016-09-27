@@ -21,43 +21,31 @@ accomodation:
 
 science:
   - img: img/facilities/1.jpg
-    title: CIao
-    descr: "rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr
-         <br>
-         qfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rq
-         <br>
-         fjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr
-         <br>
-         rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3rqfjebnòjr3"
-    site:
-    map:
-
-  - img: img/facilities/2.jpg
-    title: CIao
-    descr: rqfjebnòjr3
-    site:
-    map:
-
-  - img: img/facilities/3.jpg
-    title: CIao
-    descr: rqfjebnòjr3
+    title: LNGS
+    descr: "The Gran Sasso National Laboratory (LNGS) is the largest underground laboratory in the world devoted to neutrino and astroparticle physics. It is located under 1400 m of solid rock in the Gran Sasso massif."
     site:
     map:
 
   - img: img/facilities/1.jpg
-    title: CIao
-    descr: rqfjebnòjr3
+    title: LNGS
+    descr: "The Gran Sasso National Laboratory (LNGS) is the largest underground laboratory in the world devoted to neutrino and astroparticle physics. It is located under 1400 m of solid rock in the Gran Sasso massif."
     site:
     map:
 
   - img: img/facilities/2.jpg
-    title: CIao
-    descr: rqfjebnòjr3
+    title: GSSI
+    descr: "The Gran Sasso Science Institute (GSSI) is an international PhD school and a center for research and higher education. The GSSI aims to create a new center of scientific excellence in L’Aquila fostering the skills and highly specialized structures already present in the area, such as the Gran Sasso National Laboratories."
     site:
     map:
 
   - img: img/facilities/3.jpg
-    title: CIao
-    descr: rqfjebnòjr3
+    title: INFN
+    descr: "The Frascati Research Center of INFN (Italian National Agency for Nuclear Physics) is the biggest and oldest facility for nuclear and subnuclear physics in Italy. It is located in the surroundings of Rome."
+    site:
+    map:
+
+  - img: img/facilities/1.jpg
+    title:
+    descr: "The University of Rome - Tor Vergata is one of the main facilities for research and education in the Italian capital city."
     site:
     map:

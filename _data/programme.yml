@@ -9,7 +9,7 @@ last_update: 20/09/16
 schedule:
   - day: Sunday
     date: "02/10"
-    short_descr: baleqrlvbleqvb sun
+    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
     activity:
       - hour: "14:00 - 16:00"
         descr: "Check-in"
@@ -19,7 +19,7 @@ schedule:
         descr: "Check-in"
   - day: Monday
     date: "03/10"
-    short_descr: baleqrlvbleqvb mon
+    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
     activity:
       - hour: "14:00 - 16:00"
         descr: "Check-in"
@@ -27,7 +27,7 @@ schedule:
         descr: "Check-in"
   - day: Tuesday
     date: "04/10"
-    short_descr: baleqrlvbleqvb tues
+    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
     activity:
       - hour: "14:00 - 16:00"
         descr: "Check-in"
@@ -35,7 +35,7 @@ schedule:
         descr: "Check-in"
   - day: Wednesday
     date: "05/10"
-    short_descr: baleqrlvbleqvb wed
+    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
     activity:
       - hour: "14:00 - 16:00"
         descr: "Check-in"
@@ -43,7 +43,7 @@ schedule:
         descr: "Check-in"
   - day: Thursday
     date: "06/10"
-    short_descr: baleqrlvbleqvb thu
+    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
     activity:
       - hour: "14:00 - 16:00"
         descr: "Check-in"
