@@ -1,10 +1,10 @@
 - text: Facilities
-  url: {{ site.url }}/facilities/
+  url: /facilities/
 - text: Programme
-  url: {{ site.url }}/programme/
+  url: /programme/
 - text: Registration
-  url: {{ site.url }}/registration/
+  url: /registration/
 - text: Sponsors
-  url: {{ site.url }}/sponsors/
+  url: /sponsors/
 - text: AISF
   url: http://www.ai-sf.it
