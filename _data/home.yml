@@ -7,21 +7,17 @@ when: "Between the 2th and the 6th of October 2016."
 where: "In central Italy. Students will meet in Rome and visit the University of Rome - Tor Vergata. On the second day, they will visit INFN laboratories in Frascati. They will then move to the city of L'Aquila to spend two days at the LNGS and GSSI facilities."
 
 slideshow:
-  - img: img/facilities/2.jpg
-    alt: Foto di gruppo CISF2016
-    title: CISF 2016
-    text: Torino, aprile 2016
-  - img: img/facilities/3.jpg
-    alt: Foto di gruppo LoT2015
-    title: Lights of Tuscany
-    text: Pisa, dicembre 2015
-  - img: img/facilities/2.jpg
-    alt: Foto di gruppo iaps4fusion
-    title: iaps4fusion
-    text: Londra, settembre 2015
-  - img: img/facilities/1.jpg
-    alt: Foto di gruppo ICPS2015
-    title: ICPS2015
-    text: Zagabria, agosto 2015
+  - img: img/LNGS_home.jpg
+    alt: Gran Sasso National Laboratories
+    title: LNGS
+    text: Gran Sasso National Laboratories
+  - img: img/GSSI_home.jpg
+    alt: Gran Sasso Science Institute
+    title: GSSI
+    text: Gran Sasso Science Institute
+  - img: img/LNF_home.jpg
+    alt: Italian National Agency for Nuclear Physics
+    title: LNF
+    text: Italian National Agency for Nuclear Physics
 
 paragraph: "The Particle & Astroparticle Physics Programme, now at its second edition, is organised by the Italian Association of Physics Students and is open to all members of the International Association of Physics Students. The event will bring 40 students to visit some of the most advanced research facilities in Europe, with a focus on astroparticle physics and one key mission: to foster enthusiasm in the minds of young physicists."
