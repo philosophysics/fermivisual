@@ -1,7 +1,6 @@
 # Site settings
-title: "Acr Ev"
-description: "nome evento completo"
-banner: img/banner.png
+# title: "Acr Ev"
+# description: "nome evento completo"
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 destination: ../site/
 locale: "it"
