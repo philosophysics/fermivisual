@@ -9,6 +9,8 @@ locale: "it"
 markdown: kramdown
 future: true
 permalink: /blog/:year/:month/:day/:title/
+destination: _site
+
 
 #facebook
 fb_admins:
