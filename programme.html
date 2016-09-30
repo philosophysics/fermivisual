@@ -53,7 +53,7 @@ title: Programme
   <div class="collection">
   {% for item in site.data.programme.few_info.specs %}
     <a
-      href="{{ item.url }}"
+      href="{{ site.url }}/{{ item.url }}"
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
@@ -62,7 +62,7 @@ title: Programme
     </a>
     {% for item2 in item.subpoints %}
       <a
-        href="{{ item2.url }}"
+        href="{{ site.url }}/{{ item2.url }}"
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}

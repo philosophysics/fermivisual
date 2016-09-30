@@ -25,7 +25,7 @@ title: Registration
   <div class="collection">
   {% for item in site.data.registration.terms.specs %}
     <a
-      href="{{ item.url }}"
+      href="{{ site.url }}/{{ item.url }}"
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
@@ -34,7 +34,7 @@ title: Registration
     </a>
     {% for item2 in item.subpoints %}
       <a
-        href="{{ item2.url }}"
+        href="{{ site.url }}/{{ item2.url }}"
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
@@ -52,13 +52,23 @@ title: Registration
   <div class="collection">
   {% for item in site.data.registration.deadlines.specs %}
     <a
-      href="{{ item.url }}"
+      href="{{ site.url }}/{{ item.url }}"
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
         <span class="badge custom1 white-text">pdf</span>
       {% endif %}
     </a>
+    {% for item2 in item.subpoints %}
+      <a
+        href="{{ site.url }}/{{ item2.url }}"
+        class="collection-item black-text custom1 lighten-5">
+        {{ item2.text }}
+        {% if item.url != "#!" %}
+          <span class="badge custom1 white-text">{{ item2.button }}</span>
+        {% endif %}
+      </a>
+    {% endfor %}
   {% endfor %}
   </div>
 </div>
