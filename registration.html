@@ -25,7 +25,11 @@ title: Registration
   <div class="collection">
   {% for item in site.data.registration.terms.specs %}
     <a
-      href="{{ site.url }}/{{ item.url }}"
+      {% if item.url contains "http://" %}
+         href="{{ item.url }}"
+      {% else %}
+         href="{{ site.url }}/{{ item.url }}"
+      {% endif %}
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
@@ -34,7 +38,11 @@ title: Registration
     </a>
     {% for item2 in item.subpoints %}
       <a
-        href="{{ site.url }}/{{ item2.url }}"
+        {% if item2.url contains "http://" %}
+           href="{{ item2.url }}"
+        {% else %}
+           href="{{ site.url }}/{{ item2.url }}"
+        {% endif %}
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
@@ -52,7 +60,11 @@ title: Registration
   <div class="collection">
   {% for item in site.data.registration.deadlines.specs %}
     <a
-      href="{{ site.url }}/{{ item.url }}"
+      {% if item.url contains "http://" %}
+         href="{{ item.url }}"
+      {% else %}
+         href="{{ site.url }}/{{ item.url }}"
+      {% endif %}
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
@@ -61,7 +73,11 @@ title: Registration
     </a>
     {% for item2 in item.subpoints %}
       <a
-        href="{{ site.url }}/{{ item2.url }}"
+        {% if item2.url contains "http://" %}
+           href="{{ item2.url }}"
+        {% else %}
+           href="{{ site.url }}/{{ item2.url }}"
+        {% endif %}
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
