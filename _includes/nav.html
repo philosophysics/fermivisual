@@ -24,7 +24,7 @@
           {% else %}
             <li>
                 <a 
-                   {% if item.text != AISF %}
+                   {% if item.text != "AISF" %}
                      href="{{ site.url }}/{{ item.url }}"
                    {% else %}
                      href="{{ item.url }}"
@@ -62,7 +62,7 @@
                 </li>
                 {% else %}
                 <li><a 
-                   {% if item.text != AISF %}
+                   {% if item.text != "AISF" %}
                      href="{{ site.url }}/{{ item.url }}"
                    {% else %}
                      href="{{ item.url }}"
