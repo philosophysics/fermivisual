@@ -23,7 +23,13 @@
           </li>
           {% else %}
             <li>
-                <a href="{{ site.url }}/{{ item.url }}">
+                <a 
+                   {% if item.text != AISF %}
+                     href="{{ site.url }}/{{ item.url }}"
+                   {% else %}
+                     href="{{ item.url }}"
+                   {% endif %}
+                   >
                     {% if item.url == navurl %}
                         <b>{{ item.text }}</b>
                     {% else %}
@@ -55,7 +61,13 @@
                 </ul>
                 </li>
                 {% else %}
-                <li><a href="{{ site.url }}/{{ item.url }}">
+                <li><a 
+                   {% if item.text != AISF %}
+                     href="{{ site.url }}/{{ item.url }}"
+                   {% else %}
+                     href="{{ item.url }}"
+                   {% endif %}
+                   >
                   {% if item.url == navurl %}
                   {{ item.text }}
                   {% else %}
