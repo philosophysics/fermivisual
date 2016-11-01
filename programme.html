@@ -3,8 +3,6 @@ layout: page
 title: Programme
 ---
 
-<!--  SISTEMARE TABS DEL PROGRAMMA DETTAGLIATO  -->
-
 <div class="section">
   <h2>General Info</h2>
   <p>
@@ -53,7 +51,11 @@ title: Programme
   <div class="collection">
   {% for item in site.data.programme.few_info.specs %}
     <a
-      href="{{ site.url }}/{{ item.url }}"
+      {% if item.url contains "http://" %}
+         href="{{ item.url }}"
+      {% else %}
+         href="{{ site.url }}/{{ item.url }}"
+      {% endif %}
       class="collection-item black-text">
       {{ item.text }}
       {% if item.url != "#!" %}
@@ -62,7 +64,11 @@ title: Programme
     </a>
     {% for item2 in item.subpoints %}
       <a
-        href="{{ site.url }}/{{ item2.url }}"
+        {% if item2.url contains "http://" %}
+           href="{{ item2.url }}"
+        {% else %}
+           href="{{ site.url }}/{{ item2.url }}"
+        {% endif %}
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
