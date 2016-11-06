@@ -4,15 +4,17 @@ descr: The Associazione Italiana Studenti di Fisica (AISF) gathers together all 
 contact:
   - name: AISF
     mail: esecutivo@ai-sf.it
-  - name: PAPAP
-    mail: astroparticle@ai-sf.it
+  - name: FERMI Responsible
+    mail: lucio.milanese@ai-sf.it
 
 connect:
   - name: Facebook
     url: http://www.facebook.com/ass.it.stud.fis
 
 creator:
+  - name: Gabriele Di Ubaldo
+    mail: gabriele.diubaldo@ai-sf.it
   - name: Vittorio Erba
     mail: vittorio.erba@ai-sf.it
   - name: Giulio Pasqualetti
-    mail:
+    mail: giulio.pasqualetti@ai-sf.it
