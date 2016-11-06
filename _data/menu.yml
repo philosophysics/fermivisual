@@ -1,9 +1,7 @@
-- text: Facilities
-  url: facilities
-- text: Programme
-  url: programme
-- text: Registration
-  url: registration
+- text: About
+  url: about
+- text: Database
+  url: database
 - text: Sponsors
   url: sponsors
 - text: AISF
