@@ -1,11 +1,10 @@
 banner: img/banner.png
 
-Objective "40 physics students, from the Italian Association of Physics Students and the International Association of Physics Students. All background and nationalities are welcome!"
+Objective: "Building a database of internships and opportunities for physics students and contacting research institutes."
 
-How: "Between the 2th and the 6th of October 2016."
+How: ""
 
-Target: "In central Italy. Students will meet in Rome and visit the University of Rome - Tor Vergata. On the second day, they will visit INFN laboratories in Frascati. They will then move to the city of L'Aquila to spend two days at the LNGS and GSSI facilities."
-
+Target: "Young Italian but not only physics students"
 slideshow:
   - img: img/LNGS_home.jpg
     alt: Gran Sasso National Laboratories
