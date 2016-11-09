@@ -6,52 +6,7 @@ The complete event programme for 2016 can be downloaded here."
 
 last_update: 20/09/16
 
-schedule:
-  - day: Sunday
-    date: "02/10"
-    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
-    activity:
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-  - day: Monday
-    date: "03/10"
-    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
-    activity:
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-  - day: Tuesday
-    date: "04/10"
-    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
-    activity:
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-  - day: Wednesday
-    date: "05/10"
-    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
-    activity:
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-  - day: Thursday
-    date: "06/10"
-    short_descr: Arrival and opening cerimony in Rome, Tor Vergata
-    activity:
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-      - hour: "14:00 - 16:00"
-        descr: "Check-in"
-
-few_info:
-  info: ""
+char:
   specs:
     - text: "In order to enroll to the event you must be an IAPS member."
       url: "#!"
