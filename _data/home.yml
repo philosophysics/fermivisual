@@ -7,17 +7,9 @@ how: "The database allows you to do tailor made searches by field of study, plac
 target: "Young physics students, especially Italian but not restricted."
 
 slideshow:
-  - img: img/LNGS_home.jpg
-    alt: Gran Sasso National Laboratories
-    title: LNGS
-    text: Gran Sasso National Laboratories
-  - img: img/GSSI_home.jpg
-    alt: Gran Sasso Science Institute
-    title: GSSI
-    text: Gran Sasso Science Institute
-  - img: img/LNF_home.jpg
-    alt: Italian National Agency for Nuclear Physics
-    title: LNF
-    text: Italian National Agency for Nuclear Physics
+  - img: img/cern.jpg
+    alt: CERN
+    title: LHC
+    text: Large Hadron Collider
 
 paragraph: " The FERMI project of the Italian Association of Physics Students aims to build a database of internships and opportunities for physics students as these can make a difference in a world with such a high competition for jobs or research positions. We think that stages in research institutes and universities are excellent to define our academic interests and get to know diverse and stimulating realities."
