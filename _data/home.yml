@@ -1,10 +1,10 @@
 banner: img/banner.png
 
-Objective: "Building a database of internships and opportunities for physics students and help them getting into contact with research institutes."
+objective: "Building a database of internships and opportunities for physics students and help them getting into contact with research institutes."
 
-How: "The database allows you to do tailor made searches by field of study, place, retribution and many more"
+how: "The database allows you to do tailor made searches by field of study, place, retribution and many more"
 
-Target: "Young physics students, especially Italian but not restricted."
+target: "Young physics students, especially Italian but not restricted."
 
 slideshow:
   - img: img/LNGS_home.jpg
