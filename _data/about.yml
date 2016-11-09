@@ -1,18 +1,14 @@
-info: "The Particle & Astroparticle Physics Programme is coming to its second edition, this time to be held in the autumn. Following last year's great success, the Italian Association of Physics Students (AISF) will be organising a similar event, also including some new features and further improvements.
-</p><p>
-During the Programme, 40 students will be visiting the National Gran Sasso Laboratory and the Gran Sasso Science Institute in central Italy and the INFN laboratories in Frascati, Rome. Participants will meet in Rome, then move to the city of L'Aquila by coach and eventually return to Rome for departure. The event will have a focus on astroparticle physics, but a number of other topics will be touched upon, including theoretical physics, nuclear physics, high energy collisions and cosmology. Students will be expected to have a basic understanding of these subjects in order to effectively make the most of the programme.
-</p><p>
-The complete event programme for 2016 can be downloaded here."
+info: "Perché il progetto FERMI e perché creare questa sezione del sito dedicata a opportunità di stage di lavoro e ricerca per studenti e giovani laureati in fisica? In un mondo del lavoro e della ricerca sempre più competitivo e globalizzato, aver accumulato esperienza sul campo può spesso essere determinante per ottenere un posto in azienda o una borsa di studio per un dottorato di ricerca. Gli stage in centri di ricerca e università si dimostrano anche un modo eccellente per chiarire i propri interessi accademici, nonché per conoscere realtà diverse e stimolanti, e offrono inoltr ela possibilità di confrontarsi con tanti altri ragazzi dai background più disparati. Il progetto FERMI (Formazione e Ricerca Menti Italiane), dell’Associazione Italiana Studenti di Fisica, si propone dunque un duplice ruolo. Da una parte, costruire un database di opportunità di lavoro per studenti e giovani laureati in fisica, pubblicizzando attivamente le opportunità migliori che si presentano di volta in volta. Dall’altra, contattare centri di ricerca, università e aziende italiani per cercare di estendere la rete di possibilità di tirocini per fisici, ad oggi purtroppo abbastanza ristretta nel nostro Paese.Questa pagina del sito raccoglierà un numero crescente di opportunità, che verranno poi organizzate in un database di facile consultazione. Cercheremo anche di proporre delle recensioni di ragazzi che hanno già partecipato ad alcuni di questi stage e che condivideranno le loro esperienze, opinioni e suggerimenti. Verranno qui prontamente pubblicizzate anche le nuove oppotunità di partecipazione a stage create grazie alla mediazione dell’AISF. Fare un’esperienza di lavoro estivo, in Italia o all’estero, può essere davvero produttivo e soddisfacente, oltre che molto divertente! Vi invitiamo dunque a dare uno sguardo alle opportunità raccolte in questa pagina e non esitare a fare domanda per partecipare! Buona consultazione a tutti! Nel caso vogliate suggerire l’aggiunta di un’opportunità di tirocinio non ancora qui elencata, potete scrivere a Lucio Milanese, responsabile del progetto FERMI, all’indirizzo di posta elettronica lucio.milanese@ai-sf.it"
 
 last_update: 20/09/16
 
 char:
   specs:
-    - text: "In order to enroll to the event you must be an IAPS member."
+    - text: "FILTRI"
       url: "#!"
-    - text: "We expect to select 40 students, of whom approximately half will be Italian."
-      url: "#!"
-    - text: "Participation fees are fixed at €120 for each applicant. Such fee will cover the cost of accommodation in both L`Aquila and Rome, breakfasts at the Federico II Hotel, one buffet lunch at the LNGS, one lunch at the GSSI canteen, AISF-IAPS t-shirts, one travel ticket in the Rome/Frascati area, travel from Rome to L’Aquila (and vice versa), as well as travel from the Federico II Hotel to the LNGS. Please notice that participation fees <b>do not cover</b> the following:"
+    - text: "Database offline: We thought an offline copy of the database would be useful so we compiled all the opportunities in a document you can download here"
+      url: "http://www.ai-sf.it/owncloud/index.php/s/i1BwR0nMXbbom2g"
+    - text: ""
       url: "#!"
       subpoints:
         - text: "Journeys to/from Rome at arrival and departure. These will need to be arranged independently;"
