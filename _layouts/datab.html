@@ -20,18 +20,16 @@
     <style>
     div.relative {
     position: relative;
-    left: 300px; 
+    left: 200px; 
         }
     </style>
 </head>
-  <body>
-   <div class="relative"> 
+  <body> 
        {% include nav.html nav=site.data.menu %}
          <div class="relative"> 
         {{ content }}
-            </div>
+          </div>
     {% include footer.html %}
-    </div>
   </body>
   {% include scripts.html %}
 </html>
