@@ -46,9 +46,11 @@ title: Database
       {% endif %}
        
       class="collection-item black-text">
-      {{ item.text }}
-      {% if item.url != "#!" %}
-        <span class="badge custom1 white-text">{{ item.button }}</span>
+      {{ item.title}} 
+      {{ item.period}} 
+      {{ item.country}} 
+        
+      
       {% endif %}
     </a>
     {% for item2 in item.subpoints %}
