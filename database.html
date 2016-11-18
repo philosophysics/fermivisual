@@ -46,7 +46,7 @@ title: Database
       {% endif %}
        
       class="collection-item black-text">
-        <h6>  {{ item.title}}    </h6>  <br>  
+        <h6>  {{ item.title}}    </h6> 
         {{ item.url}}  <br>
         {{ item.field}} <br>
         {{ item.period}} <br>
@@ -54,23 +54,7 @@ title: Database
         {{ item.studies}} <br>
         {{ item.region}} <br>
         {{ item.quality}} <br>
-
-deadline:
     </a>
-    {% for item2 in item.subpoints %}
-      <a
-        {% if item2.url contains "http://" %}
-           href="{{ item2.url }}"
-        {% else %}
-           href="{{ site.url }}/{{ item2.url }}"
-        {% endif %}
-        class="collection-item black-text custom1 lighten-5">
-        {{ item2.text }}
-        {% if item.url != "#!" %}
-          <span class="badge custom1 white-text">{{ item2.button }}</span>
-        {% endif %}
-      </a>
     </div>
-    {% endfor %}
   {% endfor %}
   </div>
