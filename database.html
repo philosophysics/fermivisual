@@ -36,9 +36,9 @@ title: Database
 </div>
 
 <div class="section">
-  <h2>Results</h2>
+  <h4>Results</h4>
   <div class="collection">
-  {% for item in site.data.database %}
+  {% for item in site.data.database%}
     <a
       {% if item.url contains "http://" %}
          href="{{ item.url }}"
