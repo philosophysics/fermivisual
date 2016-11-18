@@ -46,9 +46,16 @@ title: Database
       {% endif %}
        
       class="collection-item black-text">
-      {{ item.title}}        
-     
-      {{ item.title}}    
+        {{ item.title}}      <br>  
+        {{ item.url}}  <br>
+        {{ item.field}} 
+        {{ item.period}} 
+        {{ item.retribution}} 
+        {{ item.studies}} 
+        {{ item.region}} 
+        {{ item.quality}} 
+
+deadline:
     </a>
     {% for item2 in item.subpoints %}
       <a
