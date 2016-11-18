@@ -1,8 +1,8 @@
-    - title: "CERN"
+    - title: "CERN Summer School"
       url: "http://home.cern/"
-      field: "particles"
-      period:
-      retribution:
-      studies:
-      region: "switzerland"
-      quality:
+      field: "Particle Physics"
+      period: "Summer"
+      retribution: "High"
+      studies: "Undergraduate, Masters"
+      region: "Switzerland"
+      quality: "Excellent"
