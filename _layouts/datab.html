@@ -18,18 +18,26 @@
     <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link href="{{ site.url }}/css/main.css" type="text/css" rel="stylesheet" media="screen"/>
     <style>
-    div.relative {
+    div.plus {
     position: relative;
     left: 250px; 
+        }
+    </style>
+        <style>
+    div.minus {
+    position: relative;
+    right: 250px; 
         }
     </style>
 </head>
   <body> 
        {% include nav.html nav=site.data.menu %}
-         <div class="relative"> 
+         <div class="plus"> 
         {{ content }}
           </div>
+      <div class="minus">
     {% include footer.html %}
+      </div>
   </body>
   {% include scripts.html %}
 </html>
