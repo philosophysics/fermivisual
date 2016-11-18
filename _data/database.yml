@@ -1,10 +1,9 @@
-
     - title: "CERN"
-    - url: "www.cern.ch"
-    - field: "particles"
-    - period:
-    - retribution:
-    - studies:
-    - region: "switzerland"
-    - quality:
-    - deadline:
+      url: "www.cern.ch"
+      field: "particles"
+      period:
+      retribution:
+      studies:
+      region: "switzerland"
+      quality:
+      deadline:
